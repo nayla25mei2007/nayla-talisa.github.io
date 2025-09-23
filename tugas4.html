@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lovely Flowers</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(135deg, #ffe6f0, #fff8e7, #e6f0ff);
+      color: #444;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 40px 0 20px;
+      font-weight: 700;
+      color: #d63384;
+    }
+
+    .navbar {
+      background: #ffb6c1 !important;
+    }
+
+    .navbar-brand, .nav-link {
+      color: #fff !important;
+      font-weight: 600;
+    }
+
+    .card {
+      border: none;
+      border-radius: 20px;
+      box-shadow: 0 6px 15px rgba(255, 182, 193, 0.4);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 25px rgba(255, 182, 193, 0.6);
+    }
+
+    .card-img-top {
+      height: 220px;
+      object-fit: cover;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+    }
+
+    .btn-primary {
+      border-radius: 25px;
+      padding: 8px 18px;
+      background: #ff80ab;
+      border: none;
+      transition: all 0.3s ease;
+    }
+
+    .btn-primary:hover {
+      background: #d63384;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">🌸 Lovely Flowers</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+              data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Berita</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Informasi</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">More</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Cari bunga...">
+          <button class="btn btn-light" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Judul -->
+  <h1>🌷 Flowers Bring Beauty & Love 🌷</h1>
+
+  <!-- Cards -->
+  <div class="container mb-5">
+    <div class="row g-4 justify-content-center">
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="images.jpg" class="card-img-top" alt="Bunga Tulip">
+          <div class="card-body">
+            <h5 class="card-title">🌸 Bunga Tulip</h5>
+            <p class="card-text">Tulip berasal dari Asia Tengah, simbol cinta sejati dan elegan. Warnanya cerah penuh makna.</p>
+            <a href="download.htm" class="btn btn-primary">Lihat Detail</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/bunga_lili.png" class="card-img-top" alt="Bunga Lili">
+          <div class="card-body">
+            <h5 class="card-title">💮 Bunga Lili</h5>
+            <p class="card-text">Lili terkenal dengan aroma yang harum & keindahan bunga besarnya, melambangkan kemurnian.</p>
+            <a href="X-1125-100CM-Colored-Lilies-White-62399319192.html" class="btn btn-primary">Lihat Detail</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="bunga-edelweis.webp" class="card-img-top" alt="Bunga Edelweis">
+          <div class="card-body">
+            <h5 class="card-title">🌼 Bunga Edelweis</h5>
+            <p class="card-text">Edelweis adalah bunga abadi yang tumbuh di pegunungan, simbol cinta sejati dan keabadian.</p>
+            <a href="link.htm" class="btn btn-primary">Lihat Detail</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
